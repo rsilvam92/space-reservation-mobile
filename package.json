@@ -53,5 +53,8 @@
     "typecheck": "tsc --noEmit",
     "check": "npm run format:check && npm run lint && npm run typecheck && npx expo export --platform android"
   },
+  "overrides": {
+    "uuid": "11.1.1"
+  },
   "private": true
 }
